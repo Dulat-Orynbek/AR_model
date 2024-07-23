@@ -10,7 +10,6 @@ This project implements an Autoregressive (AR) model using the 'quantmod' packag
 The AR model is a generalization of the random walk model. Instead of relying solely on white noise, it leverages past observations:
 
 \[ x[t] = b_1 x[t-1] + b_2 x[t-2] + \ldots + b_p x[t-p] \]
-
 where \( p \) is the order of the AR model.
 
 The order \( p \) is determined using the Akaike Information Criterion (AIC).
